@@ -6,11 +6,11 @@ public class p2
         int b=0;                                        //flag variable to check if multiple outcomes are present
         Scanner obj=new Scanner(System.in);
         System.out.println("Enter Length of Array");
-        int g=obj.nextInt();                                         //length of array is determined
+        int g=obj.nextInt();                            //length of array is determined
         int[]a=new int[g];                              //array is declared
         for(int z=0;z<g;z++)                            //loop to initialise array
         {
-            a[z]=obj.nextInt();                                      //initialisation of array
+            a[z]=obj.nextInt();                         //initialisation of array
         }
         int s=9;                                        //no we need as a sum
         int c=0;                                        //variable to store sum of nos
@@ -33,7 +33,6 @@ public class p2
                     System.out.println("Index of "+a[i]+" is "+i);
                     System.out.println("Index of "+a[j]+" is "+j);
                     f=1;                                //change in flag variable coz atleast one no is found
-
                     b++;                                //incriment of multiple outcome to display message
                 }
             }
