@@ -8,11 +8,14 @@ public class p2
         System.out.println("Enter Length of Array");
         int g=obj.nextInt();                            //length of array is determined
         int[]a=new int[g];                              //array is declared
+        System.out.println("Enter elements of Array");
         for(int z=0;z<g;z++)                            //loop to initialise array
         {
+            System.out.print(z+1+". ");
             a[z]=obj.nextInt();                         //initialisation of array
         }
-        int s=9;                                        //no we need as a sum
+        System.out.println("Enter number to get as sum");
+        int s=obj.nextInt();                            //no we need as a sum
         int c=0;                                        //variable to store sum of nos
         int f=0;                                        //flag variable to check if no number is found
         for(int i=0;i<g-1;i++)
